@@ -100,4 +100,8 @@ class Monster {
   ];
   url = "/api/monsters/panther";
   legendary_actions = []
-}
+};
+
+const panther = new Monster();
+
+console.log(panther);
