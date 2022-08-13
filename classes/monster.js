@@ -10,7 +10,7 @@ class Monster {
 	speed = {
     walk: "50 ft.",
 		climb: "40 ft.",
-	},
+	};
   strength = 14;
   dexterity = 15;
   constitution = 10;
