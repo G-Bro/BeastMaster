@@ -40,7 +40,7 @@ class Monster {
   damage_immunities = [];
   condition_immunities = [];
   senses = {
-    passive_perception = 14
+    passive_perception: 14
   };
   languages = "";
   challenge_rating = 0.25;
@@ -51,7 +51,7 @@ class Monster {
       desc: "The panther has advantage on Wisdom (Perception) checks that rely on smell."
     },
     {
-      name: "Pounce";
+      name: "Pounce",
       desc: "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.";
       dc: {
         dc_type: {
@@ -59,7 +59,7 @@ class Monster {
           name: "STR",
           url: "/api/ability-scores/str"
         },
-        dc_value = 12,
+        dc_value: 12,
         success_type: "none",
       }
     }
