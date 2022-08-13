@@ -23,8 +23,8 @@ class Monster {
       proficiency: {
         index: "skill-perception",
         name: "Skill: Perception",
-          url: "/api/proficiencies/skill-perception"
-        }
+        url: "/api/proficiencies/skill-perception"
+      }
     },
     {
       value: 6,
@@ -52,7 +52,7 @@ class Monster {
     },
     {
       name: "Pounce",
-      desc: "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.";
+      desc: "If the panther moves at least 20 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 12 Strength saving throw or be knocked prone. If the target is prone, the panther can make one bite attack against it as a bonus action.",
       dc: {
         dc_type: {
           index: "str",
